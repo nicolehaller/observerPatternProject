@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        //Nicole
+        Plane plane = new Plane();
+        plane.addListener(new Expedia());
+        PlaneReceipt planeReceipt = plane.seatBought();
+        plane.seatRefunded(planeReceipt);
+  }
+}
